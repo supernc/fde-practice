@@ -1,5 +1,6 @@
 import { Question } from '../types';
 import { getAllQuestions } from '../data';
+import { getExamHistory } from './storage';
 import { EXAM_DISTRIBUTION } from '../data/exam';
 
 // 按章节获取题目
@@ -85,13 +86,29 @@ export function getRandomQuestionsFromIds(
 
 // 按考试大纲比例抽题（模拟考试用）
 export function getExamQuestions(): Question[] {
-  const all = getAllQuestions();
-
+  const all = getAllQuestions().filter(q => !q.tags.includes('综合辨析'));
+  const history = getExamHistory();
+  const last = history[history.length - 1];
+  const previous = new Set(last?.questionIds ?? Object.keys(last?.answers ?? {}));
   const examQuestions = EXAM_DISTRIBUTION.flatMap(([single, multiple], index) => {
-    const chapterQuestions = all.filter(q => q.chapter === index + 1);
-    const singles = shuffleArray(chapterQuestions.filter(q => q.type === 'single'));
-    const multiples = shuffleArray(chapterQuestions.filter(q => q.type === 'multiple'));
-    return [...singles.slice(0, single), ...multiples.slice(0, multiple)];
+    const pool = shuffleArray(all.filter(q => q.chapter === index + 1));
+    const chosen: Question[] = [];
+    const coverage = new Map<string, number>();
+    const scenes = new Set<string>();
+    // Select the scarcer multiple-choice items first, then balance lesson coverage.
+    for (const [type, quota] of [['multiple', multiple], ['single', single]] as const) {
+      for (let n = 0; n < quota; n++) {
+        const sceneKey = (q: Question) => q.id.replace(/-(action|evidence)$/, '-scene');
+        const rank = (q: Question) => Number(previous.has(q.id)) * 100 + (coverage.get(q.subChapter) ?? 0);
+        const available = pool.filter(q => q.type === type && !scenes.has(sceneKey(q)));
+        const pick = available.sort((a,b) => rank(a)-rank(b))[0];
+        if (!pick) throw new Error('本章可用题数不足');
+        chosen.push(pick);
+        scenes.add(sceneKey(pick));
+        coverage.set(pick.subChapter, (coverage.get(pick.subChapter) ?? 0) + 1);
+      }
+    }
+    return chosen;
   });
 
   // 最终打乱顺序，但保持单选在前、多选在后

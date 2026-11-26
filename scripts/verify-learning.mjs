@@ -59,10 +59,10 @@ try {
     assert.equal(stats.chapterStats[first.chapter].uniqueAnswered, 1);
     assert.equal(stats.chapterStats[11].uniqueAnswered, 1);
   });
-  test('12 章 76 节与 524 道题均有有效映射和出处', () => {
+  test('12 章 76 节与 600 道题均有有效映射和出处', () => {
     assert.equal(s.courseChapters.length, 12);
     assert.equal(s.totalLessons, 76);
-    assert.equal(all.length, 524);
+    assert.equal(all.length, 600);
     assert.equal(new Set(all.map(q => q.id)).size, all.length);
     assert.equal(new Set(all.map(q => q.stem)).size, all.length);
     for (const question of all) {
@@ -91,6 +91,16 @@ try {
     const multi = exam.find(q => q.type === 'multiple');
     answers[multi.id] = multi.answer.slice(0, 1);
     assert.equal(s.calculateScore(exam, answers).score, 98);
+  });
+  test('连续组卷保持配额，同卷场景不重复，综合组合题用于专项练习', () => {
+    for (let i=0; i<100; i++) {
+      const paper=s.generateExam();
+      assert.equal(paper.length,60);
+      assert.equal(new Set(paper.map(q=>q.id.replace(/-(action|evidence)$/, '-scene'))).size,60);
+      assert.ok(paper.every(q=>!q.tags.includes('综合辨析')));
+      s.setField('examHistory',[{questionIds:paper.map(q=>q.id),answers:{}}]);
+    }
+    s.setField('examHistory',[]);
   });
   test('导出含备注和目标，重复导入不重复，备注冲突保留本机', () => {
     s.setField('dailyGoal', 30); s.saveNote(first.id, '本机学习备注');

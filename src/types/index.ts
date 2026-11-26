@@ -21,6 +21,7 @@ export interface Question {
 
 // 考试记录
 export interface ExamRecord {
+  questionIds?: string[];
   id: string;
   startTime: number;
   endTime: number;

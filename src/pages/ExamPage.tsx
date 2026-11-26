@@ -34,7 +34,7 @@ export default function ExamPage() {
             <FileText size={36} className="text-white" />
           </div>
           <h2 className="text-2xl font-bold gradient-text mb-2">FDE 模拟考试</h2>
-          <p className="text-text-secondary mb-8">按腾讯云 FDE 认证考点权重组织的原创试卷</p>
+          <p className="text-text-secondary mb-8">按十章权重抽题，优先选取上一卷未出现的题目。同一场景的决策题与证据题分卷练习。</p>
 
           <div className="grid grid-cols-1 min-[420px]:grid-cols-3 gap-2 sm:gap-4 mb-8">
             <div className="bg-bg-card rounded-xl p-4">

@@ -75,9 +75,9 @@ export default function ExamResult({ record, questions, onRetry }: ExamResultPro
             const rate = scores.total > 0 ? Math.round((scores.correct / scores.total) * 100) : 0;
             return (
               <div key={ch.id} className="flex items-center gap-3">
-                <span className="text-xs text-text-secondary w-24 sm:w-32 flex-shrink-0 truncate" title={ch.name}>
+                <button className="text-left text-xs text-primary-light w-24 sm:w-32 flex-shrink-0 truncate hover:underline" title={'复习：' + ch.name} onClick={() => navigate('/learn?chapter=' + ch.id)}>
                   {ch.name}
-                </span>
+                </button>
                 <div className="flex-1 h-2 bg-white/5 rounded-full overflow-hidden">
                   <div
                     className={`h-full rounded-full transition-all ${

@@ -27,6 +27,16 @@ function add(c,id,stem,items,analysis,category,related=[]) {
     wikiUrl:c.chapter.url,difficulty:category==='综合辨析'?3:2,
     relatedLessons:related.map(k=>k.note.id)});
 }
+const transfers = read('scripts/data/transfer-cases.txt').trim().split('\n');
+assert.equal(transfers.length, lessons.length);
+for (const [index, row] of transfers.entries()) {
+  const [lesson, stem, key, a, b, c, d, reason] = row.split('|');
+  const topic = cases[index];
+  assert.equal(lesson, topic.note.id);
+  assert.ok(reason && /^[ABCD]{1,3}$/.test(key));
+  const items = [a,b,c,d].map((text,i) => choice(text,key.includes(labels[i])));
+  add(topic,'case-'+lesson+'-transfer',stem,items,reason,'考点应用');
+}
 for (const c of cases) {
   const id='case-'+c.note.id;
   add(c,id+'-action',c.scene+'。此时最合适的做法是哪一项？',
@@ -65,7 +75,7 @@ for (const c of cases) {
       items,'逐项对照各自的业务约束与验收依据。','综合辨析',group);
   }
 }
-assert.equal(bank.length,524);
+assert.equal(bank.length,600);
 assert.equal(new Set(bank.map(q=>q.stem)).size,bank.length);
 assert.equal(used.size,304);
 fs.writeFileSync(target,JSON.stringify(bank,null,2)+'\n');
@@ -74,4 +84,4 @@ const intro=read(archive).split('## 原创练习题与解析')[0];
 const entries=bank.map(q=>['### '+q.id+' '+(q.type==='single'?'单选':'多选'),'',
   q.stem,'',...q.options.map(o=>'- '+o.label+'. '+o.text),'','答案 '+q.answer.join('、')+'。',q.analysis,'',
   '[官方课程]('+q.wikiUrl+')'].join('\n'));
-fs.writeFileSync(archive,intro+'## 原创练习题与解析\n\n共 524 道。每套模考按十章权重抽取 60 题。\n\n'+entries.join('\n\n')+'\n');
+fs.writeFileSync(archive,intro+'## 原创练习题与解析\n\n共 600 道。每套模考按十章权重抽取 60 题。\n\n'+entries.join('\n\n')+'\n');

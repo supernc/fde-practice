@@ -76,6 +76,7 @@ export function submitExam(
     score,
     passed: score >= EXAM_PASS_SCORE,
     totalQuestions: questions.length,
+    questionIds: questions.map(q => q.id),
     correctCount,
     answers,
     chapterScores,
