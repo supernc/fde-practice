@@ -1,0 +1,2358 @@
+[
+  {
+    "id": "1-1",
+    "stem": "一家制造企业验收了质检助手。哪项后续成果最能体现 FDE 交付？",
+    "options": [
+      {
+        "label": "A",
+        "text": "编写更长的项目周报"
+      },
+      {
+        "label": "B",
+        "text": "把原型演示录成视频"
+      },
+      {
+        "label": "C",
+        "text": "另一个工厂直接复用了经验证的缺陷分类 Skill"
+      },
+      {
+        "label": "D",
+        "text": "项目成员能背出所有配置"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "1.2",
+    "tags": [
+      "如何辨认真正的 FDE"
+    ],
+    "analysis": "除了客户侧系统，下一现场实际使用持久化资产，能够证明组织能力增量。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84813-84829",
+    "difficulty": 1
+  },
+  {
+    "id": "1-2",
+    "stem": "下列哪项工作最接近 Echo？",
+    "options": [
+      {
+        "label": "A",
+        "text": "修复检索接口超时"
+      },
+      {
+        "label": "B",
+        "text": "访谈现场人员并确定异常件验收指标"
+      },
+      {
+        "label": "C",
+        "text": "配置工作流节点"
+      },
+      {
+        "label": "D",
+        "text": "编写评测运行脚本"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "1.3",
+    "tags": [
+      "Echo 与 Delta"
+    ],
+    "analysis": "Echo 负责现场判断、目标及标准定义。配置与执行测试属于 Delta。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84813-84829",
+    "difficulty": 1
+  },
+  {
+    "id": "1-3",
+    "stem": "前线人员仅转述需求，后端实现的功能与客户流程脱节。最合适的调整是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用更复杂的工单字段替代访谈"
+      },
+      {
+        "label": "B",
+        "text": "将现场工作完全交给售前"
+      },
+      {
+        "label": "C",
+        "text": "增加每轮需求改动次数"
+      },
+      {
+        "label": "D",
+        "text": "让前线与真实用户澄清流程并当场验证原型"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "1.4",
+    "tags": [
+      "三种失效模式"
+    ],
+    "analysis": "现场判断与原型反馈的闭环可以减少转述造成的信息损失。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84813-84829",
+    "difficulty": 1
+  },
+  {
+    "id": "1-4",
+    "stem": "四个相似项目的工作量始终持平。在质量和范围相当的情况下，应优先检查什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "可复用资产是否真正减少了现场投入"
+      },
+      {
+        "label": "B",
+        "text": "是否每单写了完整开工纪要"
+      },
+      {
+        "label": "C",
+        "text": "是否能把全部功能登记为新成果"
+      },
+      {
+        "label": "D",
+        "text": "是否设置了更多汇报会"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "1.2",
+    "tags": [
+      "如何辨认真正的 FDE"
+    ],
+    "analysis": "同类交付的边际现场投入应因复用而下降，项目数量本身无法说明能力沉淀。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84813-84829",
+    "difficulty": 1
+  },
+  {
+    "id": "1-5",
+    "stem": "团队放在产品线后开始远离一线。哪项调整最符合课程思路？",
+    "options": [
+      {
+        "label": "A",
+        "text": "只按插件数量考核"
+      },
+      {
+        "label": "B",
+        "text": "停止与产品团队同步"
+      },
+      {
+        "label": "C",
+        "text": "明确现场共创责任并同时考核交付与沉淀"
+      },
+      {
+        "label": "D",
+        "text": "将需求与验收集中交给平台负责人"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 1,
+    "subChapter": "1.5",
+    "tags": [
+      "团队放在哪里"
+    ],
+    "analysis": "组织设置的重点是保证现场业务反馈与产品能力回流都获得时间和考核。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84813-84829",
+    "difficulty": 1
+  },
+  {
+    "id": "1-6",
+    "stem": "哪些证据同时支撑岗位交付和组织沉淀？",
+    "options": [
+      {
+        "label": "A",
+        "text": "已有真实用户通过冻结样本验收"
+      },
+      {
+        "label": "B",
+        "text": "接口逻辑封装后在第二客户复用"
+      },
+      {
+        "label": "C",
+        "text": "所有操作依赖原工程师记忆"
+      },
+      {
+        "label": "D",
+        "text": "产出有维护人、版本和验证记录的规则包"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 1,
+    "subChapter": "1.1",
+    "tags": [
+      "FDE 的职责"
+    ],
+    "analysis": "验收结果支撑交付；跨项目复用及可维护资产支撑沉淀。个人记忆无法稳定移交。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84813-84829",
+    "difficulty": 2
+  },
+  {
+    "id": "1-7",
+    "stem": "哪些属于 Delta 侧可直接执行的工作？",
+    "options": [
+      {
+        "label": "A",
+        "text": "实现审批系统的数据适配"
+      },
+      {
+        "label": "B",
+        "text": "确定业务真正的失败判据"
+      },
+      {
+        "label": "C",
+        "text": "接通已授权接口"
+      },
+      {
+        "label": "D",
+        "text": "按验收规格运行回归测试"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 1,
+    "subChapter": "1.3",
+    "tags": [
+      "Echo 与 Delta"
+    ],
+    "analysis": "Delta 使方案可运行，涵盖实现、集成和测试。失败判据由 Echo 与业务方对齐。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84813-84829",
+    "difficulty": 2
+  },
+  {
+    "id": "2-1",
+    "stem": "运营同事要让 AI 每周整理文件并交付简报，首选哪类工具？",
+    "options": [
+      {
+        "label": "A",
+        "text": "面向界面设计的 Ardot"
+      },
+      {
+        "label": "B",
+        "text": "面向知识工作的 WorkBuddy"
+      },
+      {
+        "label": "C",
+        "text": "面向代码评审的 CodeBuddy"
+      },
+      {
+        "label": "D",
+        "text": "面向视觉物料的 Miora"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "2.1",
+    "tags": [
+      "WorkBuddy"
+    ],
+    "analysis": "任务使用者是运营，目标是文件处理和交付，符合 WorkBuddy 定位。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84814-84830",
+    "difficulty": 1
+  },
+  {
+    "id": "2-2",
+    "stem": "团队需要使用已有设计系统生成高保真组件稿并协同评审。哪个工具最贴合？",
+    "options": [
+      {
+        "label": "A",
+        "text": "通用脚本任务"
+      },
+      {
+        "label": "B",
+        "text": "CodeBuddy"
+      },
+      {
+        "label": "C",
+        "text": "WorkBuddy"
+      },
+      {
+        "label": "D",
+        "text": "Ardot"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "2.5",
+    "tags": [
+      "Ardot"
+    ],
+    "analysis": "Ardot 面向专业设计协作、组件库和设计规范，适合基于现有系统生成与评审设计稿。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84814-84830",
+    "difficulty": 1
+  },
+  {
+    "id": "2-3",
+    "stem": "企业已采购平台，用户却无法说清哪些审批步骤值得改变。优先处理什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "共同定位实际流程与痛点"
+      },
+      {
+        "label": "B",
+        "text": "扩大模型上下文窗口"
+      },
+      {
+        "label": "C",
+        "text": "开启所有产品的管理员权限"
+      },
+      {
+        "label": "D",
+        "text": "先把每种工单做成一个 Agent"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 2,
+    "subChapter": "2.6",
+    "tags": [
+      "客户落地的四层门槛"
+    ],
+    "analysis": "理解实际需求及将其翻译成任务是前置门槛，首先验证用户和具体节点。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84814-84830",
+    "difficulty": 1
+  },
+  {
+    "id": "2-4",
+    "stem": "哪些是产品选型前应该核对的信息？",
+    "options": [
+      {
+        "label": "A",
+        "text": "由谁使用"
+      },
+      {
+        "label": "B",
+        "text": "要完成什么工作"
+      },
+      {
+        "label": "C",
+        "text": "需要对接哪些系统"
+      },
+      {
+        "label": "D",
+        "text": "产品发布是否最晚"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "type": "multiple",
+    "chapter": 2,
+    "subChapter": "2.7",
+    "tags": [
+      "三层赋能"
+    ],
+    "analysis": "角色、任务和集成需求共同决定产品组合。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84814-84830",
+    "difficulty": 2
+  },
+  {
+    "id": "2-5",
+    "stem": "以下哪些匹配合理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "研发代码审查使用 CodeBuddy"
+      },
+      {
+        "label": "B",
+        "text": "夜间自动触发的功能可代替上线评测"
+      },
+      {
+        "label": "C",
+        "text": "复杂多系统智能体编排评估 ADP"
+      },
+      {
+        "label": "D",
+        "text": "成套品牌视觉物料评估 Miora"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 2,
+    "subChapter": "2.3",
+    "tags": [
+      "ADP"
+    ],
+    "analysis": "CodeBuddy、ADP 和 Miora 分别贴合研发、应用编排与创意生产。自动触发无法替代质量评测。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84814-84830",
+    "difficulty": 2
+  },
+  {
+    "id": "3-1",
+    "stem": "发票提取每次输出字段不同，怎样改 Prompt 最直接？",
+    "options": [
+      {
+        "label": "A",
+        "text": "只写得更客气"
+      },
+      {
+        "label": "B",
+        "text": "增加与任务无关的示例"
+      },
+      {
+        "label": "C",
+        "text": "定义固定字段、类型和缺失值规则"
+      },
+      {
+        "label": "D",
+        "text": "把历史对话全部复制进提示词"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 3,
+    "subChapter": "3.1",
+    "tags": [
+      "Prompt 工程"
+    ],
+    "analysis": "把需求规格写成可检查的输出契约，并规定遇到缺失信息时如何处理。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84815-84836",
+    "difficulty": 1
+  },
+  {
+    "id": "3-2",
+    "stem": "知识库有几千篇资料，怎样构造上下文？",
+    "options": [
+      {
+        "label": "A",
+        "text": "保留系统约束并按问题检索少量相关段落"
+      },
+      {
+        "label": "B",
+        "text": "每次放入完整知识库"
+      },
+      {
+        "label": "C",
+        "text": "删除系统指令腾空间"
+      },
+      {
+        "label": "D",
+        "text": "使用最新文档覆盖全部旧材料"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 3,
+    "subChapter": "3.2",
+    "tags": [
+      "上下文管理"
+    ],
+    "analysis": "上下文窗口有限，按任务选择证据并为回答预留空间。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84815-84836",
+    "difficulty": 1
+  },
+  {
+    "id": "3-3",
+    "stem": "智能体遇到 502 后开始无限尝试提交同一任务。应补什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用更长语气说明"
+      },
+      {
+        "label": "B",
+        "text": "适当增加输出篇幅"
+      },
+      {
+        "label": "C",
+        "text": "记录所有凭据"
+      },
+      {
+        "label": "D",
+        "text": "错误预算、超时和明确人工退出点"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 3,
+    "subChapter": "3.4",
+    "tags": [
+      "Loop 的退出条件"
+    ],
+    "analysis": "Loop 退出控制要预先定义，连续失败后给出当前状态并交接。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84815-84836",
+    "difficulty": 1
+  },
+  {
+    "id": "3-4",
+    "stem": "MCP 工具从未发出请求，凭据也尚未验证。首个排查动作是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "改用管理员 Token"
+      },
+      {
+        "label": "B",
+        "text": "确认当前运行环境能访问服务"
+      },
+      {
+        "label": "C",
+        "text": "检查模型回答风格"
+      },
+      {
+        "label": "D",
+        "text": "直接轮换所有服务密码"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 3,
+    "subChapter": "3.5",
+    "tags": [
+      "MCP 身份认证"
+    ],
+    "analysis": "先验证网络出口，再核查配置层和凭据权限，避免在连接未建立时修改授权。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84815-84836",
+    "difficulty": 1
+  },
+  {
+    "id": "3-5",
+    "stem": "哪些属于生产 Harness 的要素？",
+    "options": [
+      {
+        "label": "A",
+        "text": "工具接口及数据契约"
+      },
+      {
+        "label": "B",
+        "text": "只有更强的模型"
+      },
+      {
+        "label": "C",
+        "text": "异常停止和人工兜底"
+      },
+      {
+        "label": "D",
+        "text": "调用轨迹与可观测指标"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 3,
+    "subChapter": "3.3",
+    "tags": [
+      "Harness 的组成"
+    ],
+    "analysis": "Harness 管理模型外围的接入、契约、错误、护栏、观测，换模型无法替代。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84815-84836",
+    "difficulty": 2
+  },
+  {
+    "id": "3-6",
+    "stem": "哪些操作有利于 MCP 凭据治理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把长期密钥粘到公共提示词"
+      },
+      {
+        "label": "B",
+        "text": "按最小范围发放权限"
+      },
+      {
+        "label": "C",
+        "text": "设置轮换和撤销流程"
+      },
+      {
+        "label": "D",
+        "text": "记录凭据使用审计"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 3,
+    "subChapter": "3.5",
+    "tags": [
+      "MCP 身份认证"
+    ],
+    "analysis": "按场景选认证后，还需管理授权范围、保存、轮换、撤销及使用审计。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84815-84836",
+    "difficulty": 2
+  },
+  {
+    "id": "4-1",
+    "stem": "初次在 WorkBuddy 试做报表，哪条指令最容易验收？",
+    "options": [
+      {
+        "label": "A",
+        "text": "帮我看看"
+      },
+      {
+        "label": "B",
+        "text": "尽量把文件处理好"
+      },
+      {
+        "label": "C",
+        "text": "以 sales.csv 汇总各区金额，把结果写入 summary.csv，缺值单独标注"
+      },
+      {
+        "label": "D",
+        "text": "了解项目全部情况以后再说"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "4.1",
+    "tags": [
+      "第一次执行任务"
+    ],
+    "analysis": "任务需要指明输入、输出、操作和验收口径。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84816-84841",
+    "difficulty": 1
+  },
+  {
+    "id": "4-2",
+    "stem": "一套文件归档规则需要由多个专家复用，该选择什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "封装为独立 Skill"
+      },
+      {
+        "label": "B",
+        "text": "为每次任务创建一个新账号"
+      },
+      {
+        "label": "C",
+        "text": "只写聊天备注"
+      },
+      {
+        "label": "D",
+        "text": "把归档规则放到运行日志里"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "4.2",
+    "tags": [
+      "安装和创建 Skill"
+    ],
+    "analysis": "Skill 封装可跨工作流使用的方法，再由专家按职责调用。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84816-84841",
+    "difficulty": 1
+  },
+  {
+    "id": "4-3",
+    "stem": "一个已经安装的本地 Skill 很少被自动触发，优先检查什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把所有工具权限都打开"
+      },
+      {
+        "label": "B",
+        "text": "修改企业账单的信息"
+      },
+      {
+        "label": "C",
+        "text": "增加一套视觉物料"
+      },
+      {
+        "label": "D",
+        "text": "描述是否准确覆盖使用场景"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "4.2",
+    "tags": [
+      "安装和创建 Skill"
+    ],
+    "analysis": "清晰的 description 能帮助识别何时使用技能，权限变更无法替代触发描述。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84816-84841",
+    "difficulty": 1
+  },
+  {
+    "id": "4-4",
+    "stem": "要把反复核对日报的流程设为定时任务，先验证什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "品牌展示颜色"
+      },
+      {
+        "label": "B",
+        "text": "真实样本、输出位置和失败后的处理路径"
+      },
+      {
+        "label": "C",
+        "text": "让所有操作均自动获批"
+      },
+      {
+        "label": "D",
+        "text": "是否一定可以在所有环境运行"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 4,
+    "subChapter": "4.5",
+    "tags": [
+      "自动化与治理"
+    ],
+    "analysis": "定时自动化之前要跑通业务链路，并指定产出、通知和需人工判断的环节。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84816-84841",
+    "difficulty": 1
+  },
+  {
+    "id": "4-5",
+    "stem": "WorkBuddy 综合实践中，哪些动作应安排在正式下发之前？",
+    "options": [
+      {
+        "label": "A",
+        "text": "做真实样本的数据体检"
+      },
+      {
+        "label": "B",
+        "text": "批量开放写权限"
+      },
+      {
+        "label": "C",
+        "text": "先验证可交付的最小原型"
+      },
+      {
+        "label": "D",
+        "text": "检查专家配置和自动化在边界输入下的表现"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 4,
+    "subChapter": "4.6",
+    "tags": [
+      "四小时综合练习"
+    ],
+    "analysis": "从数据、原型到技能、专家和自动化，逐级验证可降低返工。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84816-84841",
+    "difficulty": 2
+  },
+  {
+    "id": "4-6",
+    "stem": "企业接入连接器时如何降低后续风险？",
+    "options": [
+      {
+        "label": "A",
+        "text": "在早期检验真实的授权样本"
+      },
+      {
+        "label": "B",
+        "text": "辨认用户级与项目级配置"
+      },
+      {
+        "label": "C",
+        "text": "默认所有成员使用同一高权凭据"
+      },
+      {
+        "label": "D",
+        "text": "确认网络及访问边界"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 4,
+    "subChapter": "4.4",
+    "tags": [
+      "连接器和 MCP"
+    ],
+    "analysis": "提前暴露连通、配置范围和数据授权问题，避免高权共用。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84816-84841",
+    "difficulty": 2
+  },
+  {
+    "id": "5-1",
+    "stem": "企业希望现有身份体系管理数千名员工登录。哪种方式最贴合？",
+    "options": [
+      {
+        "label": "A",
+        "text": "每人手动登记共享账号"
+      },
+      {
+        "label": "B",
+        "text": "统一身份接入并分角色授权"
+      },
+      {
+        "label": "C",
+        "text": "把所有人设为管理员"
+      },
+      {
+        "label": "D",
+        "text": "公开邀请链接长期不失效"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "5.3",
+    "tags": [
+      "成员管理"
+    ],
+    "analysis": "统一身份适合规模化成员治理，并需结合 RBAC 分派访问范围。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84817-84847",
+    "difficulty": 1
+  },
+  {
+    "id": "5-2",
+    "stem": "员工同时处于某专家的允许和禁止范围，如何判断是否能用？",
+    "options": [
+      {
+        "label": "A",
+        "text": "有任何白名单就允许"
+      },
+      {
+        "label": "B",
+        "text": "以加入时间较晚的规则为准"
+      },
+      {
+        "label": "C",
+        "text": "由客户端随机择一"
+      },
+      {
+        "label": "D",
+        "text": "按黑名单优先处理"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "5.4",
+    "tags": [
+      "能力下发"
+    ],
+    "analysis": "课程的能力可见优先顺序为黑名单、白名单、默认规则。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84817-84847",
+    "difficulty": 1
+  },
+  {
+    "id": "5-3",
+    "stem": "客户要求完全离线并确保业务数据留在企业内网。应优先评估哪类部署？",
+    "options": [
+      {
+        "label": "A",
+        "text": "先默认共享环境"
+      },
+      {
+        "label": "B",
+        "text": "只购买个人应用"
+      },
+      {
+        "label": "C",
+        "text": "私有化企业版"
+      },
+      {
+        "label": "D",
+        "text": "只延长日志保留期"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "5.2",
+    "tags": [
+      "部署形态"
+    ],
+    "analysis": "完全离线及驻留约束应在立项确认，私有部署符合这一类前提。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84817-84847",
+    "difficulty": 1
+  },
+  {
+    "id": "5-4",
+    "stem": "WMA 上同一个 Agent 被触发三次。哪一概念描述每次独立执行上下文？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Session"
+      },
+      {
+        "label": "B",
+        "text": "产品家族"
+      },
+      {
+        "label": "C",
+        "text": "企业成员分组"
+      },
+      {
+        "label": "D",
+        "text": "Skill 分类"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 5,
+    "subChapter": "5.6",
+    "tags": [
+      "WMA 与积分"
+    ],
+    "analysis": "Agent 定义任务能力，Runtime 提供运行环境，Session 表示一次执行上下文。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84817-84847",
+    "difficulty": 1
+  },
+  {
+    "id": "5-5",
+    "stem": "哪些属于企业后台适合管理的工作？",
+    "options": [
+      {
+        "label": "A",
+        "text": "替业务人员签署审批结论"
+      },
+      {
+        "label": "B",
+        "text": "管理成员角色"
+      },
+      {
+        "label": "C",
+        "text": "下发 Skill 与专家"
+      },
+      {
+        "label": "D",
+        "text": "核查配置修改日志"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 5,
+    "subChapter": "5.1",
+    "tags": [
+      "三个端的分工"
+    ],
+    "analysis": "后台管理成员、能力和策略，并提供审计。业务终审由授权人负责。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84817-84847",
+    "difficulty": 2
+  },
+  {
+    "id": "5-6",
+    "stem": "企业连上自建业务系统，准备向试点成员下发。哪些操作正确？",
+    "options": [
+      {
+        "label": "A",
+        "text": "登记连接器服务地址与认证"
+      },
+      {
+        "label": "B",
+        "text": "先向全员开放以便试错"
+      },
+      {
+        "label": "C",
+        "text": "用授权账号确认预期访问"
+      },
+      {
+        "label": "D",
+        "text": "用未授权账号验证能拒绝"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 5,
+    "subChapter": "5.5",
+    "tags": [
+      "企业连接器"
+    ],
+    "analysis": "以最小范围试点，既检验常规路径，也检验越权拒绝。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84817-84847",
+    "difficulty": 2
+  },
+  {
+    "id": "6-1",
+    "stem": "业务人说要做智能问答。进场第一轮最应该补哪类信息？",
+    "options": [
+      {
+        "label": "A",
+        "text": "全部模型参数"
+      },
+      {
+        "label": "B",
+        "text": "生产集群的最大吞吐"
+      },
+      {
+        "label": "C",
+        "text": "真实卡点、实际使用者、可度量成效"
+      },
+      {
+        "label": "D",
+        "text": "竞争产品投资额"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "6.1",
+    "tags": [
+      "访谈三层"
+    ],
+    "analysis": "从流程、使用者和成功指标挖三层，比先接受功能名更有效。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84818-84854",
+    "difficulty": 1
+  },
+  {
+    "id": "6-2",
+    "stem": "流程图没有注明夜班的线下审批。怎样确认规则？",
+    "options": [
+      {
+        "label": "A",
+        "text": "随一线人员走一次实际业务并核对异常样本"
+      },
+      {
+        "label": "B",
+        "text": "仅问流程文档作者"
+      },
+      {
+        "label": "C",
+        "text": "把线下信息视为噪声"
+      },
+      {
+        "label": "D",
+        "text": "用模型自行推测夜班处理方式"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "6.2",
+    "tags": [
+      "识别隐性流程"
+    ],
+    "analysis": "隐性流程往往在例外业务和系统外协作中显现，需要现场事实。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84818-84854",
+    "difficulty": 1
+  },
+  {
+    "id": "6-3",
+    "stem": "业务主管对可点击 Demo 表示满意，下一步如何处理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "立即视为正式通过"
+      },
+      {
+        "label": "B",
+        "text": "把 Demo 录像当成效果证据"
+      },
+      {
+        "label": "C",
+        "text": "暂停与种子用户接触"
+      },
+      {
+        "label": "D",
+        "text": "记录反馈并把指标、样本与通过条件写清"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "6.3",
+    "tags": [
+      "用 Demo 沟通"
+    ],
+    "analysis": "Demo 用于建立共识和发现偏差，验收需要预定规则和真实数据。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84818-84854",
+    "difficulty": 1
+  },
+  {
+    "id": "6-4",
+    "stem": "一线担心自动化会增加背锅风险。首选做法是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "强制大范围上线"
+      },
+      {
+        "label": "B",
+        "text": "一对一澄清责任，试点保留复核并比较节省时间"
+      },
+      {
+        "label": "C",
+        "text": "只用管理层宣传"
+      },
+      {
+        "label": "D",
+        "text": "隐瞒潜在错误"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 6,
+    "subChapter": "6.4",
+    "tags": [
+      "处理一线抵触"
+    ],
+    "analysis": "用小范围、低风险、可比较的试点建立信任，并让一线实际受益。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84818-84854",
+    "difficulty": 1
+  },
+  {
+    "id": "6-5",
+    "stem": "场景排序时应纳入哪些维度？",
+    "options": [
+      {
+        "label": "A",
+        "text": "数据准备程度"
+      },
+      {
+        "label": "B",
+        "text": "收益能否衡量"
+      },
+      {
+        "label": "C",
+        "text": "方案文档页数"
+      },
+      {
+        "label": "D",
+        "text": "流程阻力"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 6,
+    "subChapter": "6.5",
+    "tags": [
+      "场景排序"
+    ],
+    "analysis": "排序结合业务价值、客观数据、技术可行性和组织阻力，文档长度没有排序价值。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84818-84854",
+    "difficulty": 2
+  },
+  {
+    "id": "6-6",
+    "stem": "哪些适合小范围陪跑工作营？",
+    "options": [
+      {
+        "label": "A",
+        "text": "学员带真实岗位任务"
+      },
+      {
+        "label": "B",
+        "text": "检查交付物并当轮反馈"
+      },
+      {
+        "label": "C",
+        "text": "跟踪应用后是否改善流程"
+      },
+      {
+        "label": "D",
+        "text": "只统计培训签到"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "type": "multiple",
+    "chapter": 6,
+    "subChapter": "6.6",
+    "tags": [
+      "教育行业陪跑"
+    ],
+    "analysis": "陪跑用真实任务和可检查的实践结果验证采用，签到不代表行为变化。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84818-84854",
+    "difficulty": 2
+  },
+  {
+    "id": "7-1",
+    "stem": "在 PEV 中，哪一项最符合 Evidence 阶段？",
+    "options": [
+      {
+        "label": "A",
+        "text": "单独编写发布说明"
+      },
+      {
+        "label": "B",
+        "text": "让种子用户使用已授权真实样本并记录结果"
+      },
+      {
+        "label": "C",
+        "text": "所有指标最终都达标后签收"
+      },
+      {
+        "label": "D",
+        "text": "做一个只展示正常路径的演示"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "7.1",
+    "tags": [
+      "PEV 闭环"
+    ],
+    "analysis": "实证连接真实输入、真实参与者和可检查的结果；最终对照标准属于验证阶段。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84819-84860",
+    "difficulty": 1
+  },
+  {
+    "id": "7-2",
+    "stem": "上线后处理每单耗时减少，团队如何排除受到额外关注带来的短期改进？",
+    "options": [
+      {
+        "label": "A",
+        "text": "观察与历史没有可比性的任务"
+      },
+      {
+        "label": "B",
+        "text": "只问项目组是否满意"
+      },
+      {
+        "label": "C",
+        "text": "延长示范视频时间"
+      },
+      {
+        "label": "D",
+        "text": "使用可比任务的对照组并固定计量口径"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "7.2",
+    "tags": [
+      "验收的四个维度"
+    ],
+    "analysis": "对照组帮助识别工具影响与因受关注等因素造成的变化。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84819-84860",
+    "difficulty": 1
+  },
+  {
+    "id": "7-3",
+    "stem": "进入 L2 试点前遇到的关键前置工作是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "接入真数据并打通最小权限"
+      },
+      {
+        "label": "B",
+        "text": "先宣布全组织规模部署"
+      },
+      {
+        "label": "C",
+        "text": "用全部合成数据直接验收"
+      },
+      {
+        "label": "D",
+        "text": "把所有异常留给最后一周"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "7.3",
+    "tags": [
+      "L0–L4 成熟度"
+    ],
+    "analysis": "原型到试点的关键是实际数据、权限和愿意试用的用户。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84819-84860",
+    "difficulty": 1
+  },
+  {
+    "id": "7-4",
+    "stem": "试点期间新提出五个需求，怎样避免范围失控？",
+    "options": [
+      {
+        "label": "A",
+        "text": "把每个需求加入同一发布"
+      },
+      {
+        "label": "B",
+        "text": "先扩到各团队再筛选"
+      },
+      {
+        "label": "C",
+        "text": "用目标指标评估，并以必要的新增范围换出旧范围"
+      },
+      {
+        "label": "D",
+        "text": "忽略所有新证据"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 7,
+    "subChapter": "7.4",
+    "tags": [
+      "范围控制"
+    ],
+    "analysis": "用单一可度量目标和范围置换机制稳定当前试点。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84819-84860",
+    "difficulty": 1
+  },
+  {
+    "id": "7-5",
+    "stem": "哪些可以作为合规验收中的硬条件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "来源可回溯"
+      },
+      {
+        "label": "B",
+        "text": "用平均点赞率替代合规测试"
+      },
+      {
+        "label": "C",
+        "text": "无法支持结论时拒答或升级"
+      },
+      {
+        "label": "D",
+        "text": "高风险环节人工可接管"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 7,
+    "subChapter": "7.2",
+    "tags": [
+      "验收的四个维度"
+    ],
+    "analysis": "可靠、可追溯、可接管是硬要求，不能用体验指标冲抵。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84819-84860",
+    "difficulty": 2
+  },
+  {
+    "id": "7-6",
+    "stem": "Land and Expand 的顺序中需要保留哪些动作？",
+    "options": [
+      {
+        "label": "A",
+        "text": "先验证一个窄场景"
+      },
+      {
+        "label": "B",
+        "text": "在扩张前确认稳定运行"
+      },
+      {
+        "label": "C",
+        "text": "用未经验证的场景替换基线"
+      },
+      {
+        "label": "D",
+        "text": "跨场景复用后再考虑团队规模化"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 7,
+    "subChapter": "7.5",
+    "tags": [
+      "Land and Expand"
+    ],
+    "analysis": "深度试点、稳定运行、场景扩展、团队规模化依次推进。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84819-84860",
+    "difficulty": 2
+  },
+  {
+    "id": "8-1",
+    "stem": "某 Skill 写死了客户组织名称、字段与阈值。面向第二客户复用时怎样处理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "只改文件名"
+      },
+      {
+        "label": "B",
+        "text": "把原客户文档打进公共包"
+      },
+      {
+        "label": "C",
+        "text": "将共性步骤封装，客户口径提到参数和隔离资料"
+      },
+      {
+        "label": "D",
+        "text": "将现有流程全部删掉重写"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 8,
+    "subChapter": "8.2",
+    "tags": [
+      "把方法封装成 Skill"
+    ],
+    "analysis": "复用依赖客户特化与通用方法解耦，并用第二场景验证。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84820-84865",
+    "difficulty": 1
+  },
+  {
+    "id": "8-2",
+    "stem": "助手根据有限上游信息猜测结论，输出应该怎样标注？",
+    "options": [
+      {
+        "label": "A",
+        "text": "标为知识库原文"
+      },
+      {
+        "label": "B",
+        "text": "标为 AI 推断并说明证据不足"
+      },
+      {
+        "label": "C",
+        "text": "标为外部接口已证实"
+      },
+      {
+        "label": "D",
+        "text": "删除所有来源字段"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 8,
+    "subChapter": "8.3",
+    "tags": [
+      "来源与四条红线"
+    ],
+    "analysis": "课程将资料证据、接口证据与模型推断区分；推断要明示不确定性。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84820-84865",
+    "difficulty": 1
+  },
+  {
+    "id": "8-3",
+    "stem": "团队把错单诊断经验总结成易检索的团队文档，应放在哪类载体？",
+    "options": [
+      {
+        "label": "A",
+        "text": "团队踩坑库"
+      },
+      {
+        "label": "B",
+        "text": "公开客户个人资料"
+      },
+      {
+        "label": "C",
+        "text": "只放日报邮件"
+      },
+      {
+        "label": "D",
+        "text": "生产密钥管理器"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 8,
+    "subChapter": "8.7",
+    "tags": [
+      "三类资产库"
+    ],
+    "analysis": "踩坑库集中存放故障和教训，通用可调用方法另由 Skill 库承载。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84820-84865",
+    "difficulty": 1
+  },
+  {
+    "id": "8-4",
+    "stem": "哪些属于课程强调的职业边界？",
+    "options": [
+      {
+        "label": "A",
+        "text": "保留失败用例供复盘"
+      },
+      {
+        "label": "B",
+        "text": "未经允许不使用客户数据"
+      },
+      {
+        "label": "C",
+        "text": "用 AI 代替客户最终拍板"
+      },
+      {
+        "label": "D",
+        "text": "只对已经验证的效果作承诺"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 8,
+    "subChapter": "8.3",
+    "tags": [
+      "来源与四条红线"
+    ],
+    "analysis": "数据授权、人工终审、保留失败样本和效果实证共同建立信任。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84820-84865",
+    "difficulty": 2
+  },
+  {
+    "id": "8-5",
+    "stem": "客户和产品两侧各应沉淀什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "给客户移交操作和自主迭代手册"
+      },
+      {
+        "label": "B",
+        "text": "把全部客户成本记录复制到公共知识库"
+      },
+      {
+        "label": "C",
+        "text": "给产品侧保存可迁移流程与评测"
+      },
+      {
+        "label": "D",
+        "text": "说明资产维护人并到第二个场景验证"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 8,
+    "subChapter": "8.1",
+    "tags": [
+      "双向蒸馏"
+    ],
+    "analysis": "双向沉淀服务不同受众，通用资产须经复用检验并尊重客户隔离。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84820-84865",
+    "difficulty": 2
+  },
+  {
+    "id": "8-6",
+    "stem": "怎样让一线人员乐于共享工作方法？",
+    "options": [
+      {
+        "label": "A",
+        "text": "要求交出全部个人资源"
+      },
+      {
+        "label": "B",
+        "text": "明确署名与奖励"
+      },
+      {
+        "label": "C",
+        "text": "先让工具减少其工作"
+      },
+      {
+        "label": "D",
+        "text": "保留贡献者参与复核"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 8,
+    "subChapter": "8.6",
+    "tags": [
+      "如何建立贡献者信任"
+    ],
+    "analysis": "署名、先有收益、清晰边界和持续参与能解除合作顾虑。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84820-84865",
+    "difficulty": 2
+  },
+  {
+    "id": "9-1",
+    "stem": "12 周养成计划的第 3 周末适合核查哪项退出标准？",
+    "options": [
+      {
+        "label": "A",
+        "text": "立项卡确认真需求、量化价值与风险"
+      },
+      {
+        "label": "B",
+        "text": "生产版本必须全量上线"
+      },
+      {
+        "label": "C",
+        "text": "完成所有组织级培训"
+      },
+      {
+        "label": "D",
+        "text": "下一客户已全面复制"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 9,
+    "subChapter": "9.3",
+    "tags": [
+      "四道 Gate"
+    ],
+    "analysis": "第一个 Gate 检验立项而非验收生产。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84821-84872",
+    "difficulty": 1
+  },
+  {
+    "id": "9-2",
+    "stem": "第 6 周方案评审最应检查哪些交付物？",
+    "options": [
+      {
+        "label": "A",
+        "text": "跨客户规模报告"
+      },
+      {
+        "label": "B",
+        "text": "每条提示词的版本数量"
+      },
+      {
+        "label": "C",
+        "text": "有异常和兜底描述的 PRD 及明确的 MVP 范围"
+      },
+      {
+        "label": "D",
+        "text": "生产账单的全年总额"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 9,
+    "subChapter": "9.3",
+    "tags": [
+      "四道 Gate"
+    ],
+    "analysis": "第二道 Gate 用于方案验证，确保开发理解范围和验收口径。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84821-84872",
+    "difficulty": 1
+  },
+  {
+    "id": "9-3",
+    "stem": "第 9 周有个好看的 Demo，但关键假设没验证。应怎么处理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "直接进入验收"
+      },
+      {
+        "label": "B",
+        "text": "补齐支持关键假设的 POC 证据再过阶段门"
+      },
+      {
+        "label": "C",
+        "text": "为了赶进度改验收阈值"
+      },
+      {
+        "label": "D",
+        "text": "把判断交给工具自动生成"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 9,
+    "subChapter": "9.3",
+    "tags": [
+      "四道 Gate"
+    ],
+    "analysis": "第三阶段退出条件包括核心假设验证、可运行原型和迭代排序。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84821-84872",
+    "difficulty": 1
+  },
+  {
+    "id": "9-4",
+    "stem": "回到岗位后的第一个工作任务更适合如何选？",
+    "options": [
+      {
+        "label": "A",
+        "text": "覆盖全部部门的综合改造"
+      },
+      {
+        "label": "B",
+        "text": "先签大项目再找问题"
+      },
+      {
+        "label": "C",
+        "text": "做无真实用户的练习项目"
+      },
+      {
+        "label": "D",
+        "text": "选每周重复、节省量可衡量的小任务"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 9,
+    "subChapter": "9.5",
+    "tags": [
+      "岗位行动清单"
+    ],
+    "analysis": "小而真实的场景更适合完整走完 PEV 并形成复用资产。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84821-84872",
+    "difficulty": 1
+  },
+  {
+    "id": "9-5",
+    "stem": "哪些是人的职责？",
+    "options": [
+      {
+        "label": "A",
+        "text": "决定是否上线"
+      },
+      {
+        "label": "B",
+        "text": "生成初版操作清单"
+      },
+      {
+        "label": "C",
+        "text": "对立项收益与风险负责"
+      },
+      {
+        "label": "D",
+        "text": "签署高影响审批结论"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 9,
+    "subChapter": "9.4",
+    "tags": [
+      "人机任务边界"
+    ],
+    "analysis": "工具可协助整理与生成，授权者负责项目决定和签字。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84821-84872",
+    "difficulty": 2
+  },
+  {
+    "id": "9-6",
+    "stem": "哪几项是有效的第 12 周退出证据？",
+    "options": [
+      {
+        "label": "A",
+        "text": "验收指标已有可复查数据"
+      },
+      {
+        "label": "B",
+        "text": "复盘明确下一步维护责任"
+      },
+      {
+        "label": "C",
+        "text": "只有原型截图"
+      },
+      {
+        "label": "D",
+        "text": "能力已沉淀回专家或知识库"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 9,
+    "subChapter": "9.3",
+    "tags": [
+      "四道 Gate"
+    ],
+    "analysis": "最后一道关核验验收、复盘和资产沉淀，截图无法代替证据。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84821-84872",
+    "difficulty": 2
+  },
+  {
+    "id": "10-1",
+    "stem": "要限制 Agent 只能读取指定工单并拒绝关闭工单，重点属于哪一层？",
+    "options": [
+      {
+        "label": "A",
+        "text": "培训时间层"
+      },
+      {
+        "label": "B",
+        "text": "能力层"
+      },
+      {
+        "label": "C",
+        "text": "指标采样层"
+      },
+      {
+        "label": "D",
+        "text": "产品宣传层"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 10,
+    "subChapter": "10.3",
+    "tags": [
+      "最小权限"
+    ],
+    "analysis": "能力层明确工具、动作以及授权资源范围，默认只给必要动作。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84822-84877",
+    "difficulty": 1
+  },
+  {
+    "id": "10-2",
+    "stem": "动态决策出现争议，如何串起输入、工具执行和输出？",
+    "options": [
+      {
+        "label": "A",
+        "text": "只保留最终回答"
+      },
+      {
+        "label": "B",
+        "text": "每次调用使用不同的无法关联的编号"
+      },
+      {
+        "label": "C",
+        "text": "在明文日志记录密钥"
+      },
+      {
+        "label": "D",
+        "text": "用统一请求 ID 并对敏感字段脱敏"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 10,
+    "subChapter": "10.4",
+    "tags": [
+      "日志审计"
+    ],
+    "analysis": "统一标识提供链路级追溯，脱敏控制日志暴露。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84822-84877",
+    "difficulty": 1
+  },
+  {
+    "id": "10-3",
+    "stem": "助手不得向未批准的外部地址发出业务数据。哪类护栏最直接？",
+    "options": [
+      {
+        "label": "A",
+        "text": "修改欢迎词"
+      },
+      {
+        "label": "B",
+        "text": "仅减少 Token"
+      },
+      {
+        "label": "C",
+        "text": "连接器护栏限制外发目的地"
+      },
+      {
+        "label": "D",
+        "text": "提高算力"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 10,
+    "subChapter": "10.6",
+    "tags": [
+      "三类护栏"
+    ],
+    "analysis": "连接器护栏覆盖数据与外部系统交界，适合强制出口白名单。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84822-84877",
+    "difficulty": 1
+  },
+  {
+    "id": "10-4",
+    "stem": "整体准确率达到 95%，越权用例出现一次成功。应怎么决定？",
+    "options": [
+      {
+        "label": "A",
+        "text": "按安全红线阻断上线，修复后复测"
+      },
+      {
+        "label": "B",
+        "text": "按平均准确率立即上线"
+      },
+      {
+        "label": "C",
+        "text": "删除该越权样本"
+      },
+      {
+        "label": "D",
+        "text": "用提升部署规格代替评测"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 10,
+    "subChapter": "10.5",
+    "tags": [
+      "评测门槛"
+    ],
+    "analysis": "通过条件需包含安全红线，不能用总分抵消已确认的严重失败。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84822-84877",
+    "difficulty": 1
+  },
+  {
+    "id": "10-5",
+    "stem": "系统连续失败，当前请求还涉及注销不可恢复的业务记录。应如何处理？",
+    "options": [
+      {
+        "label": "A",
+        "text": "自动再试到成功"
+      },
+      {
+        "label": "B",
+        "text": "把不可逆操作当常规只读查询"
+      },
+      {
+        "label": "C",
+        "text": "仅在最终结果中说明风险"
+      },
+      {
+        "label": "D",
+        "text": "停止并交给授权人员复核"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 10,
+    "subChapter": "10.7",
+    "tags": [
+      "人工兜底"
+    ],
+    "analysis": "同时触发过程停止和高风险动作的人审要求。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84822-84877",
+    "difficulty": 1
+  },
+  {
+    "id": "10-6",
+    "stem": "哪些应收入上线前的治理验证？",
+    "options": [
+      {
+        "label": "A",
+        "text": "缺资料能澄清或拒答"
+      },
+      {
+        "label": "B",
+        "text": "超权操作被拦截且可审计"
+      },
+      {
+        "label": "C",
+        "text": "敏感字段不会往未授权目的地发送"
+      },
+      {
+        "label": "D",
+        "text": "仅有正常样本的成功截图"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "type": "multiple",
+    "chapter": 10,
+    "subChapter": "10.8",
+    "tags": [
+      "上线前自检"
+    ],
+    "analysis": "上线门槛覆盖安全、边界输入和审计能力，不能只测试顺利流程。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84822-84877",
+    "difficulty": 2
+  },
+  {
+    "id": "11-1",
+    "stem": "审核智能体刚接入，如何在低风险条件下评估？",
+    "options": [
+      {
+        "label": "A",
+        "text": "替代全部人工裁决"
+      },
+      {
+        "label": "B",
+        "text": "先对外承诺全量准确"
+      },
+      {
+        "label": "C",
+        "text": "并行记录 AI 建议和人工结论，分开正式审批"
+      },
+      {
+        "label": "D",
+        "text": "跳过样本权限审核"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 11,
+    "subChapter": "11.1",
+    "tags": [
+      "先验证再放权"
+    ],
+    "analysis": "平行评测在不改变正式流程的条件下积累证据。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84823-84885",
+    "difficulty": 1
+  },
+  {
+    "id": "11-2",
+    "stem": "迭代规则后想复验能力是否提升，保留什么最关键？",
+    "options": [
+      {
+        "label": "A",
+        "text": "冻结的输入、人工基线、运行轨迹和分歧样本"
+      },
+      {
+        "label": "B",
+        "text": "同类项目的宣传视频"
+      },
+      {
+        "label": "C",
+        "text": "最新的聊天截图"
+      },
+      {
+        "label": "D",
+        "text": "只在脑中保留错误案例"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 11,
+    "subChapter": "11.5",
+    "tags": [
+      "开发与 POC"
+    ],
+    "analysis": "可回放的评测链路便于定位变动影响并避免对比口径漂移。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84823-84885",
+    "difficulty": 1
+  },
+  {
+    "id": "11-3",
+    "stem": "向下一类审核推广时，第一步应该是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "复制客户全量数据"
+      },
+      {
+        "label": "B",
+        "text": "直接套用全部旧阈值"
+      },
+      {
+        "label": "C",
+        "text": "取消终审以提高速度"
+      },
+      {
+        "label": "D",
+        "text": "提取共性流程，替换规则与样本后重新评测"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "type": "single",
+    "chapter": 11,
+    "subChapter": "11.7",
+    "tags": [
+      "从结算到同类审核"
+    ],
+    "analysis": "范式可复用而业务规则需重新确认，权限与人工职责也要重新验证。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84823-84885",
+    "difficulty": 1
+  },
+  {
+    "id": "11-4",
+    "stem": "财务审核项目的验收可以包含哪些证据？",
+    "options": [
+      {
+        "label": "A",
+        "text": "原型展示就替代所有数据"
+      },
+      {
+        "label": "B",
+        "text": "质量、稳定性与用量指标"
+      },
+      {
+        "label": "C",
+        "text": "分歧复核与人工终审记录"
+      },
+      {
+        "label": "D",
+        "text": "验证过的 SOP 和可回放评测集"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 11,
+    "subChapter": "11.6",
+    "tags": [
+      "项目管理"
+    ],
+    "analysis": "质量、成本、证据链和可复用交付物共同衡量可用性。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84823-84885",
+    "difficulty": 2
+  },
+  {
+    "id": "12-1",
+    "stem": "角色偏业务判断、编码经验有限，怎样补齐最低实践要求？",
+    "options": [
+      {
+        "label": "A",
+        "text": "完全转述给开发团队"
+      },
+      {
+        "label": "B",
+        "text": "能独立做最小原型，并和工程搭档协同"
+      },
+      {
+        "label": "C",
+        "text": "先放弃客户访谈"
+      },
+      {
+        "label": "D",
+        "text": "等待工具替自己定业务优先级"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "type": "single",
+    "chapter": 12,
+    "subChapter": "12.1",
+    "tags": [
+      "角色认知"
+    ],
+    "analysis": "Echo 路线仍需要用最小原型验证判断，借 Delta 协作完成工程化。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84824-84894",
+    "difficulty": 1
+  },
+  {
+    "id": "12-2",
+    "stem": "怎么确认沉淀出来的内容是真正资产？",
+    "options": [
+      {
+        "label": "A",
+        "text": "落了一份厚文档即可"
+      },
+      {
+        "label": "B",
+        "text": "会议中得到口头认可即可"
+      },
+      {
+        "label": "C",
+        "text": "在第二个场景由他人使用并验证"
+      },
+      {
+        "label": "D",
+        "text": "在同项目复制多份备份"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "type": "single",
+    "chapter": 12,
+    "subChapter": "12.3",
+    "tags": [
+      "能力沉淀"
+    ],
+    "analysis": "第二场景的可用性可以检验方法是否已经脱离原先的隐性上下文。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84824-84894",
+    "difficulty": 1
+  },
+  {
+    "id": "12-3",
+    "stem": "需要定义长期擅长审阅周报、可调用多个技能的协作者，应先创建什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "专家"
+      },
+      {
+        "label": "B",
+        "text": "一个运行日志"
+      },
+      {
+        "label": "C",
+        "text": "开放的匿名连接器"
+      },
+      {
+        "label": "D",
+        "text": "新的企业积分账户"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "type": "single",
+    "chapter": 12,
+    "subChapter": "12.4",
+    "tags": [
+      "产品操作"
+    ],
+    "analysis": "专家承载持续的人设和技能组合，Skill 聚焦可复用方法。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84824-84894",
+    "difficulty": 1
+  },
+  {
+    "id": "12-4",
+    "stem": "项目遇到不确定性时哪些做法合适？",
+    "options": [
+      {
+        "label": "A",
+        "text": "让证据和推断在输出中明确可辨"
+      },
+      {
+        "label": "B",
+        "text": "为应付验收不记录失败"
+      },
+      {
+        "label": "C",
+        "text": "拒答或转人工确认高风险结论"
+      },
+      {
+        "label": "D",
+        "text": "用早期原型邀请真实用户指出错误"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "type": "multiple",
+    "chapter": 12,
+    "subChapter": "12.2",
+    "tags": [
+      "推进项目"
+    ],
+    "analysis": "用原型减少需求误判，以溯源和人工关口控制交付风险。",
+    "wikiUrl": "https://cloud.tencent.com/edu/learning/course-4767-84824-84894",
+    "difficulty": 2
+  }
+]
