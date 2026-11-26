@@ -59,10 +59,10 @@ try {
     assert.equal(stats.chapterStats[first.chapter].uniqueAnswered, 1);
     assert.equal(stats.chapterStats[11].uniqueAnswered, 1);
   });
-  test('12 章 76 节与 68 道题均有有效映射和出处', () => {
+  test('12 章 76 节与 524 道题均有有效映射和出处', () => {
     assert.equal(s.courseChapters.length, 12);
     assert.equal(s.totalLessons, 76);
-    assert.equal(all.length, 68);
+    assert.equal(all.length, 524);
     assert.equal(new Set(all.map(q => q.id)).size, all.length);
     assert.equal(new Set(all.map(q => q.stem)).size, all.length);
     for (const question of all) {
